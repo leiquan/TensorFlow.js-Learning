@@ -4,7 +4,8 @@
   "description": "TensorFlow.js Learning Record",
   "main": "index.js",
   "dependencies": {
-    "@tensorflow/tfjs": "^1.5.1"
+    "@tensorflow/tfjs": "^1.5.1",
+    "@tensorflow/tfjs-node": "^1.5.1"
   },
   "devDependencies": {},
   "scripts": {
