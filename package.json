@@ -1,0 +1,23 @@
+{
+  "name": "tensorflow.js-learning",
+  "version": "1.0.0",
+  "description": "TensorFlow.js Learning Record",
+  "main": "index.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiquan/TensorFlow.js-Learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leiquan/TensorFlow.js-Learning/issues"
+  },
+  "homepage": "https://github.com/leiquan/TensorFlow.js-Learning#readme"
+}
