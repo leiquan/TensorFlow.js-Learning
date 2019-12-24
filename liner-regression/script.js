@@ -37,4 +37,8 @@ window.onload = async() => {
             name: "训练过程"
         }, ['loss'])
     });
+
+    const output = model.predict(tf.tensor([5]));
+    output.print();
+    console.log(output.dataSync());
 };
