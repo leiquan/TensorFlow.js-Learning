@@ -19,4 +19,5 @@ for (let i = 0; i < w.length; i++) {
 console.log(output);
 
 // tensor 法
+// 点乘规则，需要对比transpose
 tf.tensor(w).dot(tf.tensor(input)).print();
