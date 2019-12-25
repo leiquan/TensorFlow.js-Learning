@@ -20,6 +20,6 @@ window.onload = async() => {
         activation: 'sigmoid' // 将输出值压缩到0-1之间
     }));
 
-
+    model.compile({ loss: tf.losses.logLoss });
 
 };
