@@ -12,4 +12,14 @@ window.onload = async() => {
             data.filter(p => p.label === 0)
         ]
     });
+
+    const model = tf.sequential();
+    model.add(tf.layers.dense({
+        units: 1,
+        inputShape: [2], // 注意
+        activation: 'sigmoid' // 将输出值压缩到0-1之间
+    }));
+
+
+
 };
