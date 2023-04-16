@@ -1,12 +1,14 @@
 # TensorFlow.js-Learning
-花了几百块钱在慕课网买的课程学习！
 
+花了几百块钱在慕课网买的课程学习！一定要坚持到底！
 
-1、全局安装 parcel-bundler
+1、确保安装了node环境
+
+2、全局安装 parcel-bundler
 
     sudo npm install -g parcel-bundler
 
-2、到目录中去启动就好了
+3、到每一个目录中去直接启动就好了，无需任何配置
 
     parcel index.html
 
