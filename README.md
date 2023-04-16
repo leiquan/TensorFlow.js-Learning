@@ -12,7 +12,7 @@
 
     sudo npm install -g parcel-bundler
 
-4、到每一个代码目录中去直接启动就好了，无需任何配置
+4、到每一个代码目录中去直接启动index.html就好了，无需任何配置
 
-    parcel index.html
+    parcel tensor/index.html
 

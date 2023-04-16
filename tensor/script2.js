@@ -2,6 +2,8 @@ import * as tf from "@tensorflow/tfjs";
 
 // 传统for循环
 const input = [1, 2, 3, 4];
+
+// 权重
 const w = [
     [1, 2, 3, 4],
     [2, 3, 4, 5],
